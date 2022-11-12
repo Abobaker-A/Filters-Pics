@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Assigment Route">
+    <meta name="keywords" content="Assigment ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+<section class="container ">
+    <div class="img">
+        <figure class="imgBox">
+            <img id="img" src="Img/1940042.webp"  alt="">
+            <canvas id="canvas"></canvas>
+        </figure>
+        <div class="upload">
+            <label for="upload">Upload</label>
+            <input type="file" id="upload">        
+        </div>
+    </div>
+    <div class="filters">
+        <ul>
+            <li>
+                <label for="saturate">Saturate</label>
+                <input type="range" id="saturate" min="0" value="100" max="200" >
+            </li>
+            <li>
+                <label for="contrast">Contrast</label>
+                <input type="range" id="contrast" min="0" value="100" max="200" >
+            </li>
+            <li>
+                <label for="brightness">Brightness</label>
+                <input type="range" id="brightness" min="0" value="100" max="200" >
+            </li>
+            <li>
+                <label for="sepia">Sepia</label>
+                <input type="range" id="sepia" min="0" value="0" max="200" >
+            </li>
+            <li>
+                <label for="grayScale">Gray Scale</label>
+                <input type="range" id="grayScale" step=".1" min="0" value="0" max="1" >
+            </li>
+            <li>
+                <label for="blur">Blur</label>
+                <input type="range" id="blur" step=".1" min="0" value="0" max="10" >
+            </li>
+             <li>
+                <label for="hueRotate">Hue Rotate</label>
+                <input type="range" id="hueRotate"  min="0" value="0" max="350" >
+            </li>
+            <li>
+                <a download="image" id="download">Download</a>
+                <span>Reset</span>
+            </li>
+        </ul>
+        
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
